@@ -15,7 +15,6 @@ import (
 var (
 	redisPool  *redis.Pool
 	etcdClient *etcd_client.Client
-
 )
 
 func initRedis() (err error) {
@@ -55,7 +54,7 @@ func initEtcd() (err error) {
 }
 
 func convertLogLevel(level string) int {
-	switch (level) {
+	switch level {
 	case "debug":
 		return logs.LevelDebug
 	case "warn":
@@ -102,10 +101,11 @@ func loadSecConf() (err error) {
 }
 
 func updateSecproductInfo(secProductInfo []service.SecProductInfoConf) {
-	var tmp map[int]*service.SecProductInfoConf = make(map[int]*service.SecProductInfoConf,1024)
+	var tmp map[int]*service.SecProductInfoConf = make(map[int]*service.SecProductInfoConf, 1024)
 
 	for _, v := range secProductInfo {
-		tmp[v.ProductId] = &v
+		productInfo := v
+		tmp[v.ProductId] = &productInfo
 	}
 	secKillConf.RwSecProductLock.Lock()
 	secKillConf.SecProductInfoMap = tmp
