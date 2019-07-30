@@ -1,0 +1,126 @@
+2019/07/28 13:12:21.148 [D] [init.go:119]  key[%!s(int=0)] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/28 13:12:21.149 [I] [main.go:18]  init seckill success
+2019/07/28 13:12:21.234 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/28 13:34:05.751 [D] [init.go:124]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/28 13:34:05.751 [I] [main.go:18]  init seckill success
+2019/07/28 13:34:05.835 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/28 14:18:11.981 [D] [init.go:178]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:2 version:1 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/28 14:18:11.981 [I] [main.go:18]  init seckill success
+2019/07/28 14:18:11.981 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/28 14:18:12.080 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/28 14:19:40.045 [D] [asm_amd64.s:1337]  get config from etcd, PUT "/lwq/backend/seckill/product" : "[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]"
+
+2019/07/28 14:19:40.045 [D] [asm_amd64.s:1337]  get config from etcd succ, [{1020 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]
+2019/07/29 11:52:44.136 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 11:52:44.136 [I] [main.go:18]  init seckill success
+2019/07/29 11:52:44.136 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 11:52:44.227 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:14:56.804 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:14:56.804 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc00002c300 1027:0xc00002c300] {{0 0} 0 0 0 0}}
+2019/07/29 12:14:56.804 [I] [main.go:18]  init seckill success
+2019/07/29 12:14:56.804 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:14:56.901 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:15:21.216 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:15:21.404 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|      996.8µs| nomatch|[44m GET     [0m /favicon.ico
+2019/07/29 12:16:05.846 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:16:05.847 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000166750 1027:0xc000166750] {{0 0} 0 0 0 0}}
+2019/07/29 12:16:05.847 [I] [main.go:18]  init seckill success
+2019/07/29 12:16:05.847 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:16:05.953 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:16:17.369 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:16:17.966 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:16:18.547 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:16:18.973 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:18:16.961 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /  
+2019/07/29 12:18:17.037 [D] [server.go:2774]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2019/07/29 12:18:26.638 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:20:18.379 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:20:18.379 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc00002c300 1027:0xc00002c300] {{0 0} 0 0 0 0}}
+2019/07/29 12:20:18.379 [I] [main.go:18]  init seckill success
+2019/07/29 12:20:18.379 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:20:18.474 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:20:26.044 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:20:26.956 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:20:27.736 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:21.280 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:21:21.280 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000270060 1027:0xc000270060] {{0 0} 0 0 0 0}}
+2019/07/29 12:21:21.280 [I] [main.go:18]  init seckill success
+2019/07/29 12:21:21.280 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:21:21.373 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:21:24.796 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:25.573 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:26.166 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:26.435 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:26.627 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:26.812 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:21:27.000 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:23:54.807 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:23:54.808 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002b8030 1027:0xc0002b8030] {{0 0} 0 0 0 0}}
+2019/07/29 12:23:54.808 [I] [main.go:18]  init seckill success
+2019/07/29 12:23:54.808 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:23:54.884 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:24:00.800 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:24:01.681 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:24:28.661 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:24:28.661 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc00029a060 1027:0xc00029a060] {{0 0} 0 0 0 0}}
+2019/07/29 12:24:28.661 [I] [main.go:18]  init seckill success
+2019/07/29 12:24:28.661 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:24:28.738 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:25:07.058 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:32:38.011 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:32:38.012 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000164780 1027:0xc000164780] {{0 0} 0 0 0 0}}
+2019/07/29 12:32:38.012 [I] [main.go:18]  init seckill success
+2019/07/29 12:32:38.012 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:32:38.093 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:32:41.397 [E] [value.go:447]  invalid request get product_id failed , error : strconv.Atoi: parsing "": invalid syntax
+2019/07/29 12:32:41.397 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      995.6µs|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:43:03.995 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 12:43:03.995 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc00002c300 1027:0xc00002c300] {{0 0} 0 0 0 0}}
+2019/07/29 12:43:03.995 [I] [main.go:18]  init seckill success
+2019/07/29 12:43:03.995 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 12:43:04.082 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 12:43:08.145 [E] [value.go:447]  invalid request get product_id failed , error : strconv.Atoi: parsing "": invalid syntax
+2019/07/29 12:43:08.145 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 12:43:41.507 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 13:57:46.748 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 13:57:46.748 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002a8030 1027:0xc0002a8030] {{0 0} 0 0 0 0}}
+2019/07/29 13:57:46.748 [I] [main.go:18]  init seckill success
+2019/07/29 13:57:46.748 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 13:57:46.841 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 14:00:02.420 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 14:00:02.421 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000272060 1027:0xc000272060] {{0 0} 0 0 0 0}}
+2019/07/29 14:00:02.421 [I] [main.go:18]  init seckill success
+2019/07/29 14:00:02.421 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 14:00:02.508 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 14:01:03.547 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 14:01:03.547 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002a4030 1027:0xc0002a4030] {{0 0} 0 0 0 0}}
+2019/07/29 14:01:03.547 [I] [main.go:18]  init seckill success
+2019/07/29 14:01:03.547 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 14:01:03.622 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 14:01:08.978 [E] [value.go:447]  invalid request get product_id failed , error : not found product_id : 1001
+2019/07/29 14:01:08.978 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 14:04:29.266 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 14:04:29.266 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000166750 1027:0xc000166750] {{0 0} 0 0 0 0}}
+2019/07/29 14:04:29.266 [I] [main.go:18]  init seckill success
+2019/07/29 14:04:29.266 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 14:04:29.346 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 14:04:34.173 [E] [value.go:447]  invalid request get product_id failed , error : not found product_id : 1001
+2019/07/29 14:04:34.173 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 14:05:10.700 [E] [value.go:447]  invalid request get product_id failed , error : not found product_id : 1029
+2019/07/29 14:05:10.700 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 14:05:35.999 [E] [value.go:447]  invalid request get product_id failed , error : not found product_id : 1028
+2019/07/29 14:05:35.999 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 14:05:39.535 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 17:30:30.513 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 17:30:30.513 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002260f0 1027:0xc0002260f0] {{0 0} 0 0 0 0}}
+2019/07/29 17:30:30.513 [I] [main.go:18]  init seckill success
+2019/07/29 17:30:30.513 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 17:30:30.608 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 17:31:00.576 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 17:34:43.878 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|        955µs|   match|[44m GET     [0m /secinfo   r:/secinfo
+2019/07/29 17:36:02.260 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/29 17:36:02.260 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002bc030 1027:0xc0002bc030] {{0 0} 0 0 0 0}}
+2019/07/29 17:36:02.260 [I] [main.go:18]  init seckill success
+2019/07/29 17:36:02.261 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/29 17:36:02.338 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/29 17:36:07.719 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /secinfo   r:/secinfo
