@@ -1,6 +1,10 @@
 package service
 
-import "sync"
+import (
+	"github.com/gomodule/redigo/redis"
+	"sync"
+	"time"
+)
 
 const (
 	ProductStatusNormal       = 0
@@ -22,21 +26,76 @@ type EtcdConf struct {
 	EtcdSecProductKey string
 }
 
+type AccessLimitConf struct {
+	IPSecAccessLimit   int
+	UserSecAccessLimit int
+	IPMinAccessLimit   int
+	UserMinAccessLimit int
+}
+
 type SecKillConf struct {
-	RedisConf         RedisConf
+	RedisBlackConf       RedisConf
+	RedisProxy2LayerConf RedisConf
+	RedisLayer2ProxyConf RedisConf
+
 	EtcdConf          EtcdConf
 	LogPath           string
 	LogLevel          string
 	SecProductInfoMap map[int]*SecProductInfoConf
-	RwSecProductLock  sync.RWMutex
+	RWSecProductLock  sync.RWMutex
+	CookieSecretKey   string
+
+	ReferWhiteList []string
+
+	ipBlackMap map[string]bool
+	idBlackMap map[int]bool
+
+	AccessLimitConf      AccessLimitConf
+	blackRedisPool       *redis.Pool
+	proxy2LayerRedisPool *redis.Pool
+	layer2ProxyRedisPool *redis.Pool
+
+	secLimitMgr *SecLimitMgr
+
+	RWBlackLock                  sync.RWMutex
+	WriteProxy2LayerGoroutineNum int
+	ReadProxy2LayerGoroutineNum  int
+
+	SecReqChan     chan *SecRequest
+	SecReqChanSize int
+
+	UserConnMap     map[string]chan *SecResult
+	UserConnMapLock sync.Mutex
 }
 
 type SecProductInfoConf struct {
-	//大写是为了json反序列化
 	ProductId int
 	StartTime int64
 	EndTime   int64
 	Status    int
 	Total     int
 	Left      int
+}
+
+type SecResult struct {
+	ProductId int
+	UserId    int
+	Code      int
+	Token     string
+}
+
+type SecRequest struct {
+	ProductId     int
+	Source        string
+	AuthCode      string
+	SecTime       string
+	Nance         string
+	UserId        int
+	UserAuthSign  string
+	AccessTime    time.Time
+	ClientAddr    string
+	ClientRefence string
+	CloseNotify   <-chan bool
+
+	ResultChan chan *SecResult
 }

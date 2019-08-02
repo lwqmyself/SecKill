@@ -19,15 +19,15 @@ var (
 
 func initRedis() (err error) {
 	redisPool = &redis.Pool{
-		MaxIdle:     secKillConf.RedisConf.RedisMaxIdle,
-		MaxActive:   secKillConf.RedisConf.RedisMaxActive,
-		IdleTimeout: time.Duration(secKillConf.RedisConf.RedisIdleTimeout) * time.Second,
+		MaxIdle:     secKillConf.RedisBlackConf.RedisMaxIdle,
+		MaxActive:   secKillConf.RedisBlackConf.RedisMaxActive,
+		IdleTimeout: time.Duration(secKillConf.RedisBlackConf.RedisIdleTimeout) * time.Second,
 		Dial: func() (redis.Conn, error) {
-			fmt.Println(secKillConf.RedisConf.RedisAddr)
-			return redis.Dial("tcp", secKillConf.RedisConf.RedisAddr)
+			fmt.Println(secKillConf.RedisBlackConf.RedisAddr)
+			return redis.Dial("tcp", secKillConf.RedisBlackConf.RedisAddr)
 		},
 	}
-	fmt.Println(secKillConf.RedisConf.RedisAddr)
+	fmt.Println(secKillConf.RedisBlackConf.RedisAddr)
 	conn := redisPool.Get()
 	defer conn.Close()
 	_, err = conn.Do("PING")
@@ -165,11 +165,11 @@ func initSec() (err error) {
 		return
 	}
 
-	err = initRedis()
+	/*err = initRedis()
 	if err != nil {
 		logs.Error("init redis failed, err : %v", err)
 		return
-	}
+	}*/
 	err = initEtcd()
 	if err != nil {
 		logs.Error("init etcd failed, err : %v", err)
