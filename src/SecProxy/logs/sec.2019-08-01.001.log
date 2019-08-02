@@ -1,0 +1,267 @@
+2019/07/31 12:06:55.425 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 12:06:55.425 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc00002c330 1027:0xc00002c360] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS}
+2019/07/31 12:06:55.425 [I] [main.go:18]  init seckill success
+2019/07/31 12:06:55.426 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 12:06:55.517 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 12:07:09.969 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:09.969 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:11.425 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:11.425 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:12.231 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:12.231 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:12.807 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:12.807 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:13.358 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:13.358 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:13.656 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:13.656 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:14.254 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:14.254 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:07:15.043 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:07:15.044 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:08:27.375 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 12:08:27.375 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000290030 1027:0xc000290060] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS}
+2019/07/31 12:08:27.375 [I] [main.go:18]  init seckill success
+2019/07/31 12:08:27.376 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 12:08:27.482 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 12:08:32.847 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:08:32.847 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:08:33.544 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:08:33.545 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:08:34.147 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:08:34.147 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:08:35.894 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:08:35.894 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:10:01.802 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 12:10:01.802 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc00002c300 1027:0xc00002c330] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS}
+2019/07/31 12:10:01.802 [I] [main.go:18]  init seckill success
+2019/07/31 12:10:01.802 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 12:10:01.894 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 12:10:07.358 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:10:07.358 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:12:16.002 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 12:12:16.002 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000210090 1027:0xc0002100c0] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS}
+2019/07/31 12:12:16.002 [I] [main.go:18]  init seckill success
+2019/07/31 12:12:16.002 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 12:12:16.094 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 12:12:18.223 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:12:18.223 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 12:12:19.085 [W] [skill.go:40]  userId [%!d(string=)] invalid , check failed , req[&{1027      }]
+2019/07/31 12:12:19.085 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:40:23.391 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 15:40:23.391 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002e8030 1027:0xc0002e8060] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS 1}
+2019/07/31 15:40:23.391 [I] [main.go:18]  init seckill success
+2019/07/31 15:40:23.391 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 15:40:23.482 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 15:40:30.443 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      963.7µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:40:40.175 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:40:40.944 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:40:53.593 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:42:31.571 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 15:42:31.571 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc000190a50 1027:0xc000190a80] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS 1}
+2019/07/31 15:42:31.571 [I] [main.go:18]  init seckill success
+2019/07/31 15:42:31.572 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 15:42:31.669 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 15:42:36.586 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      995.6µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:42:37.340 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.6µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:43:17.702 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 15:43:17.702 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002920c0 1027:0xc0002920f0] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS 1}
+2019/07/31 15:43:17.702 [I] [main.go:18]  init seckill success
+2019/07/31 15:43:17.703 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 15:43:17.790 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 15:43:21.420 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:32.097 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 15:45:32.098 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002ec060 1027:0xc0002ec090] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS 1}
+2019/07/31 15:45:32.098 [I] [main.go:18]  init seckill success
+2019/07/31 15:45:32.098 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 15:45:32.194 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 15:45:37.004 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.021 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.168 [W] [skill.go:48]  aa
+2019/07/31 15:45:45.168 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.336 [W] [skill.go:48]  aa
+2019/07/31 15:45:45.336 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.494 [W] [skill.go:48]  aa
+2019/07/31 15:45:45.494 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.641 [W] [skill.go:48]  aa
+2019/07/31 15:45:45.641 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.807 [W] [skill.go:48]  aa
+2019/07/31 15:45:45.807 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:45.974 [W] [skill.go:48]  aa
+2019/07/31 15:45:45.974 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:46.135 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:46.299 [W] [skill.go:48]  aa
+2019/07/31 15:45:46.299 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:46.466 [W] [skill.go:48]  aa
+2019/07/31 15:45:46.466 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:46.635 [W] [skill.go:48]  aa
+2019/07/31 15:45:46.635 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:46.800 [W] [skill.go:48]  aa
+2019/07/31 15:45:46.800 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:47.005 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:47.249 [W] [skill.go:48]  aa
+2019/07/31 15:45:47.250 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:47.416 [W] [skill.go:48]  aa
+2019/07/31 15:45:47.416 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:47.589 [W] [skill.go:48]  aa
+2019/07/31 15:45:47.589 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:47.767 [W] [skill.go:48]  aa
+2019/07/31 15:45:47.767 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:47.923 [W] [skill.go:48]  aa
+2019/07/31 15:45:47.923 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:48.083 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:48.266 [W] [skill.go:48]  aa
+2019/07/31 15:45:48.267 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.1µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:48.449 [W] [skill.go:48]  aa
+2019/07/31 15:45:48.450 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.9µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:48.607 [W] [skill.go:48]  aa
+2019/07/31 15:45:48.607 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:48.772 [W] [skill.go:48]  aa
+2019/07/31 15:45:48.772 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:48.940 [W] [skill.go:48]  aa
+2019/07/31 15:45:48.940 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:49.115 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:49.273 [W] [skill.go:48]  aa
+2019/07/31 15:45:49.273 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:49.442 [W] [skill.go:48]  aa
+2019/07/31 15:45:49.442 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:49.617 [W] [skill.go:48]  aa
+2019/07/31 15:45:49.617 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:49.787 [W] [skill.go:48]  aa
+2019/07/31 15:45:49.787 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:49.959 [W] [skill.go:48]  aa
+2019/07/31 15:45:49.960 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:50.137 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:50.285 [W] [skill.go:48]  aa
+2019/07/31 15:45:50.285 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:50.448 [W] [skill.go:48]  aa
+2019/07/31 15:45:50.448 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:50.615 [W] [skill.go:48]  aa
+2019/07/31 15:45:50.615 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:50.749 [W] [skill.go:48]  aa
+2019/07/31 15:45:50.750 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.1µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:50.921 [W] [skill.go:48]  aa
+2019/07/31 15:45:50.921 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      996.9µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:51.085 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:51.268 [W] [skill.go:48]  aa
+2019/07/31 15:45:51.268 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:51.434 [W] [skill.go:48]  aa
+2019/07/31 15:45:51.434 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:51.615 [W] [skill.go:48]  aa
+2019/07/31 15:45:51.615 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:51.799 [W] [skill.go:48]  aa
+2019/07/31 15:45:51.799 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:51.963 [W] [skill.go:48]  aa
+2019/07/31 15:45:51.963 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:52.150 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:52.332 [W] [skill.go:48]  aa
+2019/07/31 15:45:52.332 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:52.505 [W] [skill.go:48]  aa
+2019/07/31 15:45:52.505 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:52.683 [W] [skill.go:48]  aa
+2019/07/31 15:45:52.683 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:52.838 [W] [skill.go:48]  aa
+2019/07/31 15:45:52.838 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:53.032 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:53.216 [W] [skill.go:48]  aa
+2019/07/31 15:45:53.216 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:53.416 [W] [skill.go:48]  aa
+2019/07/31 15:45:53.416 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:53.600 [W] [skill.go:48]  aa
+2019/07/31 15:45:53.600 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:53.786 [W] [skill.go:48]  aa
+2019/07/31 15:45:53.786 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:53.985 [W] [skill.go:48]  aa
+2019/07/31 15:45:53.985 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:54.167 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:54.353 [W] [skill.go:48]  aa
+2019/07/31 15:45:54.353 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:54.531 [W] [skill.go:48]  aa
+2019/07/31 15:45:54.532 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      989.8µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:54.715 [W] [skill.go:48]  aa
+2019/07/31 15:45:54.715 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:54.915 [W] [skill.go:48]  aa
+2019/07/31 15:45:54.915 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:55.115 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:55.315 [W] [skill.go:48]  aa
+2019/07/31 15:45:55.315 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:55.497 [W] [skill.go:48]  aa
+2019/07/31 15:45:55.497 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:55.665 [W] [skill.go:48]  aa
+2019/07/31 15:45:55.665 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:55.852 [W] [skill.go:48]  aa
+2019/07/31 15:45:55.852 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:56.055 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:56.238 [W] [skill.go:48]  aa
+2019/07/31 15:45:56.239 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:56.431 [W] [skill.go:48]  aa
+2019/07/31 15:45:56.431 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:56.613 [W] [skill.go:48]  aa
+2019/07/31 15:45:56.613 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:56.781 [W] [skill.go:48]  aa
+2019/07/31 15:45:56.781 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:56.932 [W] [skill.go:48]  aa
+2019/07/31 15:45:56.932 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:57.069 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:57.249 [W] [skill.go:48]  aa
+2019/07/31 15:45:57.249 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:57.420 [W] [skill.go:48]  aa
+2019/07/31 15:45:57.420 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:57.581 [W] [skill.go:48]  aa
+2019/07/31 15:45:57.581 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:57.767 [W] [skill.go:48]  aa
+2019/07/31 15:45:57.767 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:57.939 [W] [skill.go:48]  aa
+2019/07/31 15:45:57.939 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:58.109 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:58.281 [W] [skill.go:48]  aa
+2019/07/31 15:45:58.281 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:58.448 [W] [skill.go:48]  aa
+2019/07/31 15:45:58.448 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:58.615 [W] [skill.go:48]  aa
+2019/07/31 15:45:58.615 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.1µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:58.781 [W] [skill.go:48]  aa
+2019/07/31 15:45:58.781 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 15:45:58.950 [W] [skill.go:48]  aa
+2019/07/31 15:45:58.950 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:25.905 [D] [init.go:179]  key[0] value [key:"/lwq/backend/seckill/product" create_revision:2 mod_revision:3 version:2 value:"[{\"ProductId\":1020,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2019/07/31 16:28:25.905 [D] [init.go:184]  init service success , config : &{{127.0.0.1:6379 64 100 300} {127.0.0.1:2379 5 /lwq/backend/seckill/ /lwq/backend/seckill/product} ./logs/sec.log debug map[1020:0xc0002f6030 1027:0xc0002f6060] {{0 0} 0 0 0 0} eWL7r34CYo9YMXbwSrBJOKETLcqkU0LS 1}
+2019/07/31 16:28:25.905 [I] [main.go:18]  init seckill success
+2019/07/31 16:28:25.905 [D] [asm_amd64.s:1337]  begin watch key:/lwq/backend/seckill/product
+2019/07/31 16:28:26.005 [I] [asm_amd64.s:1337]  http server Running on http://127.0.0.1:9091
+2019/07/31 16:28:32.243 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:32.2435902 +0800 CST m=+6.382044301 127.0.0.1:12969}]
+2019/07/31 16:28:32.243 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:32.988 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:32.9881063 +0800 CST m=+7.126560401 127.0.0.1:12969}]
+2019/07/31 16:28:32.989 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      998.2µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:33.511 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:33.5119307 +0800 CST m=+7.650384801 127.0.0.1:12969}]
+2019/07/31 16:28:33.511 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:33.761 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:33.7612666 +0800 CST m=+7.899720701 127.0.0.1:12969}]
+2019/07/31 16:28:33.761 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:33.970 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:33.9707039 +0800 CST m=+8.109158001 127.0.0.1:12969}]
+2019/07/31 16:28:33.970 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:34.175 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:34.1751569 +0800 CST m=+8.313611001 127.0.0.1:12969}]
+2019/07/31 16:28:34.175 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:34.386 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:34.3865913 +0800 CST m=+8.525045401 127.0.0.1:12969}]
+2019/07/31 16:28:34.386 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:34.586 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:34.5868451 +0800 CST m=+8.725299201 127.0.0.1:12969}]
+2019/07/31 16:28:34.586 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:34.773 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:34.7733466 +0800 CST m=+8.911800701 127.0.0.1:12969}]
+2019/07/31 16:28:34.773 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:34.939 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:34.939901 +0800 CST m=+9.078355101 127.0.0.1:12969}]
+2019/07/31 16:28:34.939 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:35.121 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:35.121137 +0800 CST m=+9.259591101 127.0.0.1:12969}]
+2019/07/31 16:28:35.122 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:35.285 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:35.2855866 +0800 CST m=+9.424040701 127.0.0.1:12969}]
+2019/07/31 16:28:35.285 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:35.483 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:35.4830588 +0800 CST m=+9.621512901 127.0.0.1:12969}]
+2019/07/31 16:28:35.483 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:35.635 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:35.6356492 +0800 CST m=+9.774103301 127.0.0.1:12969}]
+2019/07/31 16:28:35.635 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:35.794 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:35.7942262 +0800 CST m=+9.932680301 127.0.0.1:12969}]
+2019/07/31 16:28:35.794 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:35.974 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:35.9747435 +0800 CST m=+10.113197601 127.0.0.1:12969}]
+2019/07/31 16:28:35.974 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:36.172 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:36.1722154 +0800 CST m=+10.310669501 127.0.0.1:12969}]
+2019/07/31 16:28:36.172 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|      974.7µs|   match|[44m GET     [0m /seckill   r:/seckill
+2019/07/31 16:28:36.352 [D] [value.go:447]  client request:[&{1026     0  2019-07-31 16:28:36.3527326 +0800 CST m=+10.491186701 127.0.0.1:12969}]
+2019/07/31 16:28:36.353 [D] [server.go:2774]  |      127.0.0.1|[42m 200 [0m|        999µs|   match|[44m GET     [0m /seckill   r:/seckill
