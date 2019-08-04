@@ -95,7 +95,7 @@ type SecRequest struct {
 	AccessTime    time.Time
 	ClientAddr    string
 	ClientRefence string
-	CloseNotify   <-chan bool
+	CloseNotify   <-chan bool `json:"-"`
 
-	ResultChan chan *SecResult
+	ResultChan chan *SecResult `json:"-"`
 }

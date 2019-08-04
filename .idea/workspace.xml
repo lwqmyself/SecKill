@@ -1,9 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95629c34-b84d-48c7-a7e0-dd1a8144e30e" name="Default Changelist" comment="1.0">
-      <change afterPath="$PROJECT_DIR$/src/SecProxy/service/minlimit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecProxy/service/seclimit.go" afterDir="false" />
+    <list default="true" id="95629c34-b84d-48c7-a7e0-dd1a8144e30e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/controller/activity/activity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/controller/product/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/main/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/main/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/model/activity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/model/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/model/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/DT_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-responsive1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-toggle-buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/brown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/clockface.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/coming-soon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/email.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/glyphicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/halflings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/inbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/invoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery-ui-1.10.1.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.fileupload-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.nestable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jquery.ui.slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/lock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/login-soft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/multi-select-metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/pricing-tables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/promo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/select2_metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/style-metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/style-non-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/style-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/css/uniform.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/KwPYo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/amazon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/avatar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/avatar1_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/avatar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/avatar3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/behance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg-input-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg-input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg-opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg-white-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bg/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/blogger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/bstree-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/datatable-row-openclose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/deviantart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/dropbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/earth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/evernote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fancybox_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fancybox_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/forrst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons_halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons_halflings-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons_halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphicons_halflings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphiconshalflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphiconshalflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphiconshalflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/glyphiconshalflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/hor-menu-search-close-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/hor-menu-search-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/hor-menu-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/icon-color-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/icon-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/icon-img-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/icon-img-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/img1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/inbox-nav-arrow-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/item_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/item_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/jolicloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/last-fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/logo-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/logo_azteca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/logo_conquer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/logo_metronic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/menu-toggler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/overlay-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/photo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/picasa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/pintrest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-collapse-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-collapse-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-config-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-config-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-expand-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-expand-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-reload-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-reload-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-remove-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/portlet-remove-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/preview_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/profile-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/progressbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/remove-icon-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sidebar-menu-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sidebar-search-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sidebar-toggler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/social_facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/social_googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/social_linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/social_rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/social_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/spotify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/stumbleupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/syncfusion-icons-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/syncfusion-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/tumblr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/vimeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/walmart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/xing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/yahoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/image/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/DT_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-modalmanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-rtl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap-wysihtml5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/breakpoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/canvas-to-blob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/clockface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/coming-soon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/contact-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/form-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/form-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/form-samples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/form-wizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/inbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery-1.10.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery-ui-1.10.1.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.blockui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.bootpag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.bootstrap.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.fancybox.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.fileupload-fp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.fileupload-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.gritter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.input-ip-address-control-1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.inputmask.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.multi-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.pulsate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.toggle.buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.uniform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/jquery.xdr-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/load-image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/lock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/login-soft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/maps-google.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/maps-vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/portlet-draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/table-advanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/table-managed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/tmpl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ui-general.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ui-jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ui-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ui-nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ui-sliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/ui-tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/static/js/wysihtml5-0.3.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/activity/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/activity/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/activity/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/layout/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/layout/layout_blank_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/product/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/product/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/email1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/email2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/email3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/email4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/email5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/email6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_404_option1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_404_option2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_404_option3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_500_option1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_500_option2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_image_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_lock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_pricing_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/extra_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_dropzone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_fileupload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_samples.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/form_wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/inbox_inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_ajax_content_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_ajax_content_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_blank_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_boxed_not_responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_boxed_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_horizontal_menu1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_horizontal_menu2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_horizontal_sidebar_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_promo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/layout_sidebar_closed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/login_soft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/maps_google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/maps_vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/DT_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-responsive1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-toggle-buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/brown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/clockface.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/coming-soon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/email.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/glyphicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/halflings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/inbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/invoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/jquery-ui-1.10.1.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/conf/seclayer.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/main/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/main/logs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/product_count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/seclimit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecLayer/service/user_history.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecProxy/service/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecProxy/service/redis_proc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/go_build_SecProxy_main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/go_build_SecProxy_main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SecProxy/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecProxy/conf/app.conf" afterDir="false" />
@@ -23,82 +503,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecProxy/main/config.go">
+        <entry file="file://$PROJECT_DIR$/src/SecLayer/service/redis.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-              <folding>
-                <element signature="e#14#123#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2428">
+              <caret line="255" column="28" selection-start-line="255" selection-start-column="28" selection-end-line="255" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecProxy/main/init.go">
+        <entry file="file://$PROJECT_DIR$/src/SecLayer/service/const.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="38" column="1" selection-start-line="19" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#244#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecProxy/main/main.go">
+        <entry file="file://$PROJECT_DIR$/src/SecLayer/service/service.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="e#14#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecProxy/service/service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="267" column="82" selection-start-line="267" selection-start-column="82" selection-end-line="267" selection-end-column="82" />
-              <folding>
-                <element signature="e#17#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecProxy/conf/app.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecProxy/service/antispam.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#17#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SecProxy/service/service.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding>
+                <element signature="e#17#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SecProxy/service/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="319">
+              <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
               <folding>
-                <element signature="e#17#80#0" expanded="true" />
+                <element signature="e#17#79#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecProxy/controller/skill.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecLayer/conf/seclayer.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecProxy/service/init.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+              <folding>
+                <element signature="e#17#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecLayer/main/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,6 +607,21 @@
       <find>l</find>
       <find>sex info</find>
       <find>1027</find>
+      <find>fmt.Println</find>
+      <find>initProxy2LayerRedis</find>
+      <find>rpop</find>
+      <find>proxy2LayerRedisPool</find>
+      <find>atoi</find>
+      <find>ed</find>
+      <find>fmt.</find>
+      <find>invalid cookie</find>
+      <find>json.Marshal failed</find>
+      <find>client request</find>
+      <find>ErrUserServiceBusy</find>
+      <find>ErrNotFoundProductId</find>
+      <find>1002</find>
+      <find>ErrSecKillSucc</find>
+      <find>end = false</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="D:/tools/GO" />
@@ -149,20 +653,39 @@
         <option value="$PROJECT_DIR$/src/SecProxy/main/main.go" />
         <option value="$PROJECT_DIR$/src/SecProxy/tools/SetConf/main.go" />
         <option value="$PROJECT_DIR$/src/SecProxy/router/router.go" />
-        <option value="$PROJECT_DIR$/src/SecProxy/controller/skill.go" />
-        <option value="$PROJECT_DIR$/src/SecProxy/main/init.go" />
         <option value="$PROJECT_DIR$/src/SecProxy/service/antispam.go" />
-        <option value="$PROJECT_DIR$/src/SecProxy/service/config.go" />
-        <option value="$PROJECT_DIR$/src/SecProxy/service/service.go" />
-        <option value="$PROJECT_DIR$/src/SecProxy/conf/app.conf" />
         <option value="$PROJECT_DIR$/src/SecProxy/main/config.go" />
+        <option value="$PROJECT_DIR$/src/SecProxy/service/redis_proc.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/main/config.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/service/config.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/main/logs.go" />
+        <option value="$PROJECT_DIR$/src/SecProxy/main/init.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/service/product.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/service/service.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/service/init.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/main/main.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/controller/product/product.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/controller/activity/activity.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/main/init.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/model/db.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/router/router.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/main/main.go" />
+        <option value="$PROJECT_DIR$/src/SecAdmin/conf/app.conf" />
+        <option value="$PROJECT_DIR$/src/SecLayer/service/redis.go" />
+        <option value="$PROJECT_DIR$/src/SecProxy/controller/skill.go" />
+        <option value="$PROJECT_DIR$/src/SecProxy/service/init.go" />
+        <option value="$PROJECT_DIR$/src/SecProxy/service/config.go" />
+        <option value="$PROJECT_DIR$/src/SecLayer/conf/seclayer.conf" />
+        <option value="$PROJECT_DIR$/src/SecProxy/conf/app.conf" />
+        <option value="$PROJECT_DIR$/src/SecProxy/service/service.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="742" />
+    <option name="y" value="75" />
+    <option name="width" value="968" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,6 +706,83 @@
               <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
               <item name="Seckill" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecLayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecLayer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
@@ -209,27 +809,6 @@
               <item name="Seckill" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SecProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecKill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecProxy" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -250,7 +829,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SecProxy/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SecAdmin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -264,10 +843,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Go_workspace\Seckill\src\SecAdmin" />
+      <recent name="D:\Workspace\Go_workspace\Seckill\src\SecLayer\service" />
       <recent name="D:\Workspace\Go_workspace\Seckill\src\SecProxy\service" />
       <recent name="D:\Workspace\Go_workspace\Seckill\src\SecProxy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Go_workspace\Seckill\src\SecLayer\service" />
       <recent name="D:\Workspace\Go_workspace\Seckill" />
     </key>
   </component>
@@ -283,7 +865,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build SecLayer/main">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="SecKill" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -291,6 +873,28 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build SecAdmin/main" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="SecKill" />
+      <working_directory value="D:\Workspace\Go_workspace\Seckill\src\SecAdmin" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="SecAdmin/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="D:\Workspace\Go_workspace\Seckill\bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build SecLayer/main" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="SecKill" />
+      <working_directory value="D:\Workspace\Go_workspace\Seckill\src\SecLayer" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="SecLayer/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="D:\Workspace\Go_workspace\Seckill\bin" />
       <method v="2" />
     </configuration>
     <configuration name="go build SecProxy/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -303,6 +907,11 @@
       <output_directory value="D:\Workspace\Go_workspace\Seckill\bin" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build SecLayer/main" />
+      <item itemvalue="Go Build.go build SecAdmin/main" />
+      <item itemvalue="Go Build.go build SecProxy/main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build SecProxy/main" />
@@ -319,14 +928,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="870" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2461964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12734585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17073171" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29758713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,16 +986,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/go.mod" />
-    <entry file="file://$PROJECT_DIR$/go.sum" />
-    <entry file="file://$PROJECT_DIR$/go.mod" />
-    <entry file="file://$PROJECT_DIR$/SecProxy/controller/skill.go" />
-    <entry file="file://$PROJECT_DIR$/src/main/main.go" />
-    <entry file="file://$PROJECT_DIR$/SecProxy/router/router.go" />
-    <entry file="file://$PROJECT_DIR$/pkg/mod/github.com/astaxie/beego@v1.12.0/session/postgres/sess_postgresql.go" />
-    <entry file="file://$PROJECT_DIR$/src/pkg/mod/github.com/astaxie/beego@v1.12.0/session/postgres/sess_postgresql.go" />
-    <entry file="file://$PROJECT_DIR$/SecProxy/main/main.go" />
-    <entry file="file://$PROJECT_DIR$/SecProxy/conf/app.conf" />
     <entry file="file://$PROJECT_DIR$/pkg/mod/github.com/astaxie/beego@v1.12.0/beego.go" />
     <entry file="file://$PROJECT_DIR$/../../GoWork/src/Seckill/SecProxy/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -447,63 +1047,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/tools/SetConf/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/controller/skill.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding>
-            <element signature="e#20#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/BaiduNetdiskDownload/day15/SecKill/SecProxy/service/redis_proc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/main/init.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="38" column="1" selection-start-line="19" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/error.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SecProxy/service/minlimit.go">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/router/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SecProxy/service/seclimit.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -512,49 +1062,291 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/antispam.go">
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/tools/SetConf/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#17#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/service.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="267" column="82" selection-start-line="267" selection-start-column="82" selection-end-line="267" selection-end-column="82" />
-          <folding>
-            <element signature="e#17#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecProxy/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="-1330">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SecProxy/main/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="2907">
+          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
             <element signature="e#14#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/seclimit.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/main/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/logs/seclayer.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/user_history.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/router/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/controller/activity/activity.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2158">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/views/theme/media/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/model/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/model/activity.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/main/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1811">
+          <folding>
+            <element signature="e#14#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/controller/product/product.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1450">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/product_count.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#17#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/product.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/main/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/model/product.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecAdmin/router/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/main/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3369">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/main/logs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/tools/GO/src/encoding/json/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#17#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/conf/seclayer.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/redis_proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/antispam.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-878">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/error.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/controller/skill.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SecProxy/service/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="319">
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
           <folding>
-            <element signature="e#17#80#0" expanded="true" />
+            <element signature="e#17#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/const.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecLayer/service/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2428">
+          <caret line="255" column="28" selection-start-line="255" selection-start-column="28" selection-end-line="255" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecProxy/service/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding>
+            <element signature="e#17#90#0" expanded="true" />
           </folding>
         </state>
       </provider>

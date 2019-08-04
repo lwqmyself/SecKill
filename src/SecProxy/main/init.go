@@ -23,11 +23,11 @@ func initRedis() (err error) {
 		MaxActive:   secKillConf.RedisBlackConf.RedisMaxActive,
 		IdleTimeout: time.Duration(secKillConf.RedisBlackConf.RedisIdleTimeout) * time.Second,
 		Dial: func() (redis.Conn, error) {
-			fmt.Println(secKillConf.RedisBlackConf.RedisAddr)
+			//fmt.Println(secKillConf.RedisBlackConf.RedisAddr)
 			return redis.Dial("tcp", secKillConf.RedisBlackConf.RedisAddr)
 		},
 	}
-	fmt.Println(secKillConf.RedisBlackConf.RedisAddr)
+	//fmt.Println(secKillConf.RedisBlackConf.RedisAddr)
 	conn := redisPool.Get()
 	defer conn.Close()
 	_, err = conn.Do("PING")
@@ -107,9 +107,9 @@ func updateSecproductInfo(secProductInfo []service.SecProductInfoConf) {
 		productInfo := v
 		tmp[v.ProductId] = &productInfo
 	}
-	secKillConf.RwSecProductLock.Lock()
+	secKillConf.RWSecProductLock.Lock()
 	secKillConf.SecProductInfoMap = tmp
-	secKillConf.RwSecProductLock.Unlock()
+	secKillConf.RWSecProductLock.Unlock()
 }
 
 func initSecProductWatcher() {
@@ -165,11 +165,11 @@ func initSec() (err error) {
 		return
 	}
 
-	/*err = initRedis()
+	err = initRedis()
 	if err != nil {
 		logs.Error("init redis failed, err : %v", err)
 		return
-	}*/
+	}
 	err = initEtcd()
 	if err != nil {
 		logs.Error("init etcd failed, err : %v", err)

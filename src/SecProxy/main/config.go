@@ -133,5 +133,52 @@ func initConfig() (err error) {
 	secKillConf.RedisProxy2LayerConf.RedisMaxActive = redisMaxActive
 	secKillConf.RedisProxy2LayerConf.RedisIdleTimeout = redisIdleTimeout
 
+	writeGoNums, err := beego.AppConfig.Int("write_proxy2layer_goroutine_num")
+	if err != nil {
+		err = fmt.Errorf("init config failed, read write_proxy2layer_goroutine_num error:%v", err)
+		return
+	}
+	secKillConf.WriteProxy2LayerGoroutineNum = writeGoNums
+
+	readGoNums, err := beego.AppConfig.Int("read_layer2proxy_goroutine_num")
+	if err != nil {
+		err = fmt.Errorf("init config failed, read read_layer2proxy_goroutine_num error:%v", err)
+		return
+	}
+	secKillConf.ReadProxy2LayerGoroutineNum = readGoNums
+
+	//读取业务逻辑层到proxy的redis配置
+	redisLayer2ProxyAddr := beego.AppConfig.String("redis_layer2proxy_addr")
+	logs.Debug("read config succ, redis_layer2proxy_addr:%v", redisLayer2ProxyAddr)
+
+	secKillConf.RedisLayer2ProxyConf.RedisAddr = redisLayer2ProxyAddr
+	fmt.Println("haha" + secKillConf.RedisLayer2ProxyConf.RedisAddr)
+	if len(redisLayer2ProxyAddr) == 0 {
+		err = fmt.Errorf("init config failed, redis[%s]  config is null", redisProxy2LayerAddr)
+		return
+	}
+
+	redisMaxIdle, err = beego.AppConfig.Int("redis_layer2proxy_idle")
+	if err != nil {
+		err = fmt.Errorf("init config failed, read redis_layer2proxy_idle error:%v", err)
+		return
+	}
+
+	redisMaxActive, err = beego.AppConfig.Int("redis_layer2proxy_active")
+	if err != nil {
+		err = fmt.Errorf("init config failed, read redis_layer2proxy_active error:%v", err)
+		return
+	}
+
+	redisIdleTimeout, err = beego.AppConfig.Int("redis_layer2proxy_idle_timeout")
+	if err != nil {
+		err = fmt.Errorf("init config failed, read redis_layer2proxy_idle_timeout error:%v", err)
+		return
+	}
+
+	secKillConf.RedisLayer2ProxyConf.RedisMaxIdle = redisMaxIdle
+	secKillConf.RedisLayer2ProxyConf.RedisMaxActive = redisMaxActive
+	secKillConf.RedisLayer2ProxyConf.RedisIdleTimeout = redisIdleTimeout
+	return
 	return
 }

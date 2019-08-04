@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"strconv"
 	"strings"
 	"time"
 )
@@ -33,19 +32,22 @@ func (p *SkillController) SecKill() {
 	secTime := p.GetString("time")
 	nance := p.GetString("nance")
 
-	secRequest := &service.SecRequest{}
+	secRequest := service.NewSecRequest()
 	secRequest.AuthCode = authcode
 	secRequest.Nance = nance
 	secRequest.ProductId = productId
 	secRequest.SecTime = secTime
 	secRequest.Source = source
 	secRequest.UserAuthSign = p.Ctx.GetCookie("userAuthSign")
-	secRequest.UserId, err = strconv.Atoi(p.Ctx.GetCookie("userId"))
+	//secRequest.UserId, _ = strconv.Atoi(p.Ctx.GetCookie("userId"))
+	secRequest.UserId, _ = p.GetInt("user_id")
 	secRequest.AccessTime = time.Now()
 	if len(p.Ctx.Request.RemoteAddr) > 0 {
 		secRequest.ClientAddr = strings.Split(p.Ctx.Request.RemoteAddr, ":")[0]
 	}
-	secRequest.ClientReference = p.Ctx.Request.Referer()
+
+	secRequest.ClientRefence = p.Ctx.Request.Referer()
+	secRequest.CloseNotify = p.Ctx.ResponseWriter.CloseNotify()
 
 	logs.Debug("client request:[%v]", secRequest)
 	if err != nil {
